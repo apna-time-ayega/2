@@ -23,7 +23,7 @@ jobs:
     - name: Extracting Ngrok File.
       run: Expand-Archive ngrok.zip
     - name: Connect To Account Ngrok.
-      run: .\ngrok\ngrok.exe authtoken 2EfyU3z1PvM0mSE56tthqSd1oXI_3GgKJcN56vzYpVsFDLQjw
+      run: .\ngrok\ngrok.exe authtoken 2F9vohGt9CHeKOD6AtnYb5CuM60_5o5mqEzUUgDUJwK1A9FxU
       env:
         NGROK_AUTH_TOKEN: ${{ secrets.NGROK_AUTH_TOKEN }}
     - name: Turn on Access RDP.
